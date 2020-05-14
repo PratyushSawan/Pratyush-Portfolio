@@ -10,6 +10,16 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "Lato", sans-serif !important;
 	font-weight: 900 !important;
 }
+.sidenav{
+	width: 250px;
+	position: absolute;
+	z-index: 1;
+	margin-left: 82%;
+    margin-top: 2.5em;
+}
+@media screen and (max-width: 1280px){
+	.sidenav{margin-left: 100%;}
+}
 
 .wrapper {
 		background: #E3E3E3;
